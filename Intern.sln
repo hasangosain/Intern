@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36429.23 d17.14
+VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Intern", "Intern\Intern.csproj", "{79E5C320-DE4B-4FEB-B7CF-123F7E2435D4}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-4", "Assignment-4\Assignment-4.csproj", "{C6FE03C7-954D-4C18-AE8B-14D286426428}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringInterpolation", "StringInterpolation\StringInterpolation.csproj", "{9CCC6799-BB27-4AB2-B64D-7778914D2F8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-5", "Assignment-5\Assignment-5.csproj", "{CCF55768-3158-4DC8-ACC1-53623780FD15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{9CCC6799-BB27-4AB2-B64D-7778914D2F8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CCC6799-BB27-4AB2-B64D-7778914D2F8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CCC6799-BB27-4AB2-B64D-7778914D2F8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCF55768-3158-4DC8-ACC1-53623780FD15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCF55768-3158-4DC8-ACC1-53623780FD15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCF55768-3158-4DC8-ACC1-53623780FD15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCF55768-3158-4DC8-ACC1-53623780FD15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
