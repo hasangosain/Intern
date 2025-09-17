@@ -56,11 +56,11 @@ class GradeCalculator
     // Method: Convert numeric score → Letter grade
     static string GetLetterGrade(int gradeScore)
     {
-        if (gradeScore >= 90 && gradeScore <= 100) return " Grade = A+";
-        else if (gradeScore >= 80 && gradeScore <= 89) return " Grade = A ";
-        else if (gradeScore >= 70 && gradeScore <= 79) return " Grade = B ";
-        else if (gradeScore >= 60 && gradeScore <= 69) return " Grade = C ";
-        else if (gradeScore >= 50 && gradeScore <= 59) return " Grade = D ";
+        if (gradeScore >= 90 && gradeScore <= 100) return " A+ ";
+        else if (gradeScore >= 80 && gradeScore <= 89) return " A ";
+        else if (gradeScore >= 70 && gradeScore <= 79) return " B";
+        else if (gradeScore >= 60 && gradeScore <= 69) return " C ";
+        else if (gradeScore >= 50 && gradeScore <= 59) return " D ";
         else return "F";
     }
 }
