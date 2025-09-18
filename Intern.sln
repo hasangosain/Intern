@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-6-Mul Table", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-6-Num Guess game", "Assignment-6-Num Guess game\Assignment-6-Num Guess game.csproj", "{01783376-5426-4460-9B68-9BB52C83869B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-5-Weekend Project", "Assignment-5-Weekend Project\Assignment-5-Weekend Project.csproj", "{955DD0DE-2BDD-4D52-B8D7-992494EEC53F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{01783376-5426-4460-9B68-9BB52C83869B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01783376-5426-4460-9B68-9BB52C83869B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01783376-5426-4460-9B68-9BB52C83869B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{955DD0DE-2BDD-4D52-B8D7-992494EEC53F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{955DD0DE-2BDD-4D52-B8D7-992494EEC53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{955DD0DE-2BDD-4D52-B8D7-992494EEC53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{955DD0DE-2BDD-4D52-B8D7-992494EEC53F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
