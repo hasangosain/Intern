@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Break.Continu and Goto Stat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-8-Math Utilities", "Assignment-8-Math Utilities\Assignment-8-Math Utilities.csproj", "{15045C7E-EB81-4CE3-A6BD-06BF9DF9330C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-8-Modular Calculator", "Assignment-8-Modular Calculator\Assignment-8-Modular Calculator.csproj", "{749E9A3E-5DD0-4FD5-9F6C-1A8D4EB9734A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{15045C7E-EB81-4CE3-A6BD-06BF9DF9330C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15045C7E-EB81-4CE3-A6BD-06BF9DF9330C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15045C7E-EB81-4CE3-A6BD-06BF9DF9330C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{749E9A3E-5DD0-4FD5-9F6C-1A8D4EB9734A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{749E9A3E-5DD0-4FD5-9F6C-1A8D4EB9734A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{749E9A3E-5DD0-4FD5-9F6C-1A8D4EB9734A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{749E9A3E-5DD0-4FD5-9F6C-1A8D4EB9734A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
