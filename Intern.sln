@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Method Documentation With X
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-7-Refactored", "Assignment-7-Refactored\Assignment-7-Refactored.csproj", "{CC5C8443-A295-4141-BC00-A736117DE42C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-10", "Assignment-10\Assignment-10.csproj", "{35484C44-E9E8-4AFB-BDF3-E3209ABBE04B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{CC5C8443-A295-4141-BC00-A736117DE42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC5C8443-A295-4141-BC00-A736117DE42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC5C8443-A295-4141-BC00-A736117DE42C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35484C44-E9E8-4AFB-BDF3-E3209ABBE04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35484C44-E9E8-4AFB-BDF3-E3209ABBE04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35484C44-E9E8-4AFB-BDF3-E3209ABBE04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35484C44-E9E8-4AFB-BDF3-E3209ABBE04B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
