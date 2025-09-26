@@ -78,7 +78,7 @@ class Program
         Car car2 = new Car { Make = "Suzuki", Model = "Swift", Year = 2020, Color = "Red" };
         Car car3 = new Car { Make = "Mahindra", Model = "Scorpio", Year = 2022, Color = "Blue" };
 
-        // Test functionality
+        // Test functionalites
         car1.Start();
         car1.Accelerate();
         car1.GetInfo();
