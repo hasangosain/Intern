@@ -1,6 +1,14 @@
 ﻿using System;
 
 /// <summary>
+/// Custom exception thrown when a withdrawal exceeds the available balance.
+/// </summary>
+public class InsufficientFundsException : Exception
+{
+    public InsufficientFundsException(string message) : base(message) { }
+}
+
+/// <summary>
 /// Represents a simple bank account with deposit and withdrawal functionality.
 /// </summary>
 class BankAccount
@@ -9,27 +17,18 @@ class BankAccount
     private double balance;
     private string ownerName;
 
-    /// <summary>
-    /// Gets or sets the account number.
-    /// </summary>
     public string AccountNumber
     {
         get { return accountNumber; }
         set { accountNumber = value; }
     }
 
-    /// <summary>
-    /// Gets or sets the account owner's name.
-    /// </summary>
     public string OwnerName
     {
         get { return ownerName; }
         set { ownerName = value; }
     }
 
-    /// <summary>
-    /// Gets or sets the account balance. Prevents setting a negative balance.
-    /// </summary>
     public double Balance
     {
         get { return balance; }
@@ -37,21 +36,12 @@ class BankAccount
         {
             if (value < 0)
             {
-                Console.WriteLine("Error: Balance cannot be negative!");
+                throw new ArgumentException("Balance cannot be negative.");
             }
-            else
-            {
-                balance = value;
-            }
+            balance = value;
         }
     }
 
-    /// <summary>
-    /// Constructor to initialize the bank account with details.
-    /// </summary>
-    /// <param name="accountNumber">The unique account number.</param>
-    /// <param name="ownerName">The name of the account owner.</param>
-    /// <param name="initialBalance">Initial account balance.</param>
     public BankAccount(string accountNumber, string ownerName, double initialBalance)
     {
         AccountNumber = accountNumber;
@@ -65,15 +55,13 @@ class BankAccount
     /// <param name="amount">The amount to deposit.</param>
     public void Deposit(double amount)
     {
-        if (amount > 0)
+        if (amount <= 0)
         {
-            Balance += amount;
-            Console.WriteLine($"Deposited: ${amount}. New Balance: ${Balance}");
+            throw new ArgumentException("Deposit amount must be positive.");
         }
-        else
-        {
-            Console.WriteLine("Deposit amount must be positive.");
-        }
+
+        Balance += amount;
+        Console.WriteLine($"Deposited: ${amount}. New Balance: ${Balance}");
     }
 
     /// <summary>
@@ -82,43 +70,51 @@ class BankAccount
     /// <param name="amount">The amount to withdraw.</param>
     public void Withdraw(double amount)
     {
-        if (amount > 0 && amount <= Balance)
+        if (amount <= 0)
         {
-            Balance -= amount;
-            Console.WriteLine($"Withdrawn: ${amount}. Remaining Balance: ${Balance}");
+            throw new ArgumentException("Withdrawal amount must be positive.");
         }
-        else if (amount > Balance)
+
+        if (amount > Balance)
         {
-            Console.WriteLine("Error: Insufficient balance!");
+            throw new InsufficientFundsException("Insufficient balance for this withdrawal.");
         }
-        else
-        {
-            Console.WriteLine("Error: Invalid withdrawal amount!");
-        }
+
+        Balance -= amount;
+        Console.WriteLine($"Withdrawn: ${amount}. Remaining Balance: ${Balance}");
     }
 
-    /// <summary>
-    /// Returns the current account balance.
-    /// </summary>
-    /// <returns>Current balance.</returns>
-    public double GetBalance()
-    {
-        return Balance;
-    }
+    public double GetBalance() => Balance;
 }
 
 /// <summary>
-/// Test program to demonstrate the BankAccount class.
+/// Test program to demonstrate the BankAccount class with exception handling.
 /// </summary>
 class Program
 {
     static void Main()
     {
-        Console.WriteLine("Bank Account Details ");
-        BankAccount account1 = new BankAccount("ACC1001", "Hasan Gosain", 1000);
+        try
+        {
+            BankAccount account1 = new BankAccount("ACC1001", "Hasan Gosain", 1000);
 
-        account1.Deposit(500);
-        account1.Withdraw(200);
-        Console.WriteLine($"Final Balance: ${account1.GetBalance()}");
+            account1.Deposit(500);
+            account1.Withdraw(200);
+            account1.Withdraw(2000); // This will trigger InsufficientFundsException
+
+            Console.WriteLine($"Final Balance: ${account1.GetBalance()}");
+        }
+        catch (InsufficientFundsException ex)
+        {
+            Console.WriteLine($"Custom Exception: {ex.Message}");
+        }
+        catch (ArgumentException ex)
+        {
+            Console.WriteLine($"Argument Exception: {ex.Message}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Unexpected error: {ex.Message}");
+        }
     }
 }
