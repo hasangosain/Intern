@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-17", "Assignment
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customs Exceptional Handling", "Customs Exceptional Handling\Customs Exceptional Handling.csproj", "{EB4F474E-F1F8-47B2-A1C8-F8E45DE991CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-18-Contact Manager", "Assignment-18-Contact Manager\Assignment-18-Contact Manager.csproj", "{D64DD236-91F3-4019-921F-FC6D881A0F41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{EB4F474E-F1F8-47B2-A1C8-F8E45DE991CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB4F474E-F1F8-47B2-A1C8-F8E45DE991CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB4F474E-F1F8-47B2-A1C8-F8E45DE991CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64DD236-91F3-4019-921F-FC6D881A0F41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64DD236-91F3-4019-921F-FC6D881A0F41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64DD236-91F3-4019-921F-FC6D881A0F41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64DD236-91F3-4019-921F-FC6D881A0F41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
