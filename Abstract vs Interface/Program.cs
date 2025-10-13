@@ -6,6 +6,7 @@
 //can have fields, constructors, and destructors.     cannot have fields, constructors, and destructors.
 
 using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 abstract class Animal
 {
@@ -70,12 +71,13 @@ class Program
 
 
 
-
-
+//Interface
+//It only contains method declarations (no implementation).
+//Any class that implements the interface must provide definitions for all its methods.
+//creating objects of Dog and Bird.But their reference type is the interface ISoundMaker
+//This shows polymorphism — one interface type can refer to many different objects.
 
 //using System;
-
-//// Interface
 //interface ISoundMaker
 //{
 //    void MakeSound();  // Method signature only, no body
