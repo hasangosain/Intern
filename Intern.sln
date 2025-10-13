@@ -69,6 +69,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-15 Zoo mgmt", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-16", "Assignment-16\Assignment-16.csproj", "{6030DA3D-585C-4350-9285-B5707D531758}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-17", "Assignment-17\Assignment-17.csproj", "{FFC96749-7CAA-4750-A9C6-E21CE7E2C451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customs Exceptional Handling", "Customs Exceptional Handling\Customs Exceptional Handling.csproj", "{EB4F474E-F1F8-47B2-A1C8-F8E45DE991CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +211,14 @@ Global
 		{6030DA3D-585C-4350-9285-B5707D531758}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6030DA3D-585C-4350-9285-B5707D531758}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6030DA3D-585C-4350-9285-B5707D531758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC96749-7CAA-4750-A9C6-E21CE7E2C451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC96749-7CAA-4750-A9C6-E21CE7E2C451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC96749-7CAA-4750-A9C6-E21CE7E2C451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC96749-7CAA-4750-A9C6-E21CE7E2C451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB4F474E-F1F8-47B2-A1C8-F8E45DE991CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4F474E-F1F8-47B2-A1C8-F8E45DE991CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4F474E-F1F8-47B2-A1C8-F8E45DE991CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4F474E-F1F8-47B2-A1C8-F8E45DE991CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
