@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-18-Word Freq Cou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-18-Task Queue", "Assignment-18-Task Queue\Assignment-18-Task Queue.csproj", "{8BC41E9A-FAA5-46FB-985E-D7AA8DF045BE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queue", "Queue\Queue.csproj", "{8DD94C64-13D7-454B-8C66-02841AC5B2BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +239,10 @@ Global
 		{8BC41E9A-FAA5-46FB-985E-D7AA8DF045BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BC41E9A-FAA5-46FB-985E-D7AA8DF045BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BC41E9A-FAA5-46FB-985E-D7AA8DF045BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD94C64-13D7-454B-8C66-02841AC5B2BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD94C64-13D7-454B-8C66-02841AC5B2BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD94C64-13D7-454B-8C66-02841AC5B2BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD94C64-13D7-454B-8C66-02841AC5B2BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
