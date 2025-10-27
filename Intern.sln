@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-22-Product Inven
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-21-Log File Writer", "Assignment-21-Log File Writer\Assignment-21-Log File Writer.csproj", "{1820E4A9-942A-4D73-A2A5-E77AB69AE4B8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment-21-Text File Processor", "Assignment-21-Text File Processor\Assignment-21-Text File Processor.csproj", "{A7203A71-67AD-49E6-ABA2-9143972BEF7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{1820E4A9-942A-4D73-A2A5-E77AB69AE4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1820E4A9-942A-4D73-A2A5-E77AB69AE4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1820E4A9-942A-4D73-A2A5-E77AB69AE4B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7203A71-67AD-49E6-ABA2-9143972BEF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7203A71-67AD-49E6-ABA2-9143972BEF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7203A71-67AD-49E6-ABA2-9143972BEF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7203A71-67AD-49E6-ABA2-9143972BEF7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
